@@ -42,6 +42,7 @@ public class Ponto {
         
         return Math.sqrt(difX + difY + difZ);
     }
+    
     /**
      * Retorna no nome não-qualificado da classe.
      * @return O nome não qualificado da classe.
