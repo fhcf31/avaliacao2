@@ -24,7 +24,8 @@ public class Ponto {
     
     @Override
     public String toString(){
-        return String.format("%s(%.f,%f,%f)",this.getNome(),x,y,z);
+        String retorno = String.format("%s(%f.%f,%f)",this.getNome(),x,y,z);
+        return retorno;
     }
     
     public boolean equals(Ponto a){
